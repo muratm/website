@@ -73,11 +73,11 @@ INSTALLED_APPS = (
     'markitup',
     'radpress',
     'nose',
+    'simplewiki',
 
     'jobs',
     'people',
     'presentations',
-
 )
 
 LOGGING = {

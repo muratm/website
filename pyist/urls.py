@@ -22,6 +22,10 @@ urlpatterns = patterns(
     url(r'^blog/(?P<slug>[-\w]+)$', view=ArticleDetailView.as_view(),
         name='radpress-article-detail'),  # overrides radpress detail url
 
+    # wiki
+    url(r'^login$', 'django.contrib.auth.views.login'),
+    url(r'^wiki/', include('simplewiki.urls')),
+
     # admin
     url(r'^admin/',
         include(admin.site.urls)),
