@@ -1,6 +1,6 @@
 .idea
 settings_local.py
-data
+data/db.sqlite
 venv
 *.pyc
 *~
