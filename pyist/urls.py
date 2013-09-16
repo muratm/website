@@ -24,7 +24,7 @@ urlpatterns = patterns(
 
     # wiki
     url(r'^login$', 'django.contrib.auth.views.login'),
-    url(r'^wiki/', include('simplewiki.urls')),
+    url(r'^wiki/', include('simplewiki.urls', namespace='wiki')),
 
     # admin
     url(r'^admin/',
