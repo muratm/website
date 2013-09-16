@@ -118,6 +118,8 @@ RADPRESS_DISQUS = 'pyistanbul'
 # Nose Settings
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
+MAIN_PAGE_SLUG = 'ana-sayfa'
+
 try:
     from settings_local import *
 except ImportError:
